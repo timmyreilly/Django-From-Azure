@@ -23,10 +23,51 @@ There are 6 pieces to this lesson.
 3. Pulling from the cloud
 4. Configuring
 
-Your Box
+Ingredients for this workflow:
 
-You need python 2.7, a text editor, and Gitshell.
-. 
+- Python 2.7 (Configure so you can run the REPL
+- A text editor (Sublime is good)
+- An Azure Subscription (Bizspark or free trial)
+- Git and a Git shell
+- Terminal or powershell
+
+**Your Box**
+
+-  You should be able to do these things before we continue
+	1. Open files with Sublime
+	2. Change to your GitHub directory with powershell
+	3. Run Python's REPL in powershell
+
+**The Cloud**
+
+1. Go to the Azure Portal
+2. Select new in the lower left corner
+3. Select Website
+4. Select From Gallery
+5. Find Django
+6. Next 
+7. Give at URL (eg: 'FirstMVC')
+8. Hit the checkmark
+
+Azure is now creating a complete Django website hosted in the cloud. 
+
+Were going to begin treating this Django existence as a repository. Or a place to hold and manage our code.
+
+1. Click on that instance
+2. Find 'Integrate source control' on the Quick Start page
+3. Select 'Set up deployment from source control'
+4. 
+
+**Local Repository**
+
+
+
+**Making a change**
+
+**Deployment**
+
+**Learning **
+ 
 
 A quick change
 
