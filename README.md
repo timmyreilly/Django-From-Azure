@@ -105,12 +105,20 @@ There are 5 total files to edit. And these five are the only you'll need to edit
 4. Copy and paste the code from views.py into your views.py. 
 	1. This is the logic of the matter. Its the fun part. 
 
-Alright you're sites all ready save all your changes! We're about to deploy. 
-
-
+Alright you're sites all ready. Save your changes! We're about to deploy. 
 
 
 **Deployment**
+
+This is a common git flow. For personal git controlled code this is a very simple way to get your head wrapped around the process. Start here and you'll work your way into the git mastery. 
+
+Run these commands in this order
+
+git add .
+git commit -a -m "Description of Commit"
+git push azure master
+
+
 
 **Learning **
  
