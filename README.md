@@ -1,11 +1,32 @@
-Dango
+Django
 =====
 
-Django with Azure 
+This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture. 
 
-Did you know you can pull a site from Azure, manage it in a Git repository, and commit changes back into Azure?
+Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories. 
 
-Well you can! And I'm gonna show you how. 
+As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!
+
+So once you learn how to build, you will be familiar with deploying and managing.  
+
+There are 6 pieces to this lesson.  
+
+1. Your Box
+2. The Cloud
+3. Local Repository
+4. Making a change
+5. Deployment
+6. Learning
+
+1. Configuring your box
+2. Spinning up your site
+3. Pulling from the cloud
+4. Configuring
+
+Your Box
+
+You need python 2.7, a text editor, and Gitshell.
+. 
 
 A quick change
 
