@@ -7,6 +7,8 @@ Did you know you can pull a site from Azure, manage it in a Git repository, and 
 
 Well you can! And I'm gonna show you how. 
 
+A quick change
+
 First thing: 
 Download Git
 	(We'll be using the shell)
