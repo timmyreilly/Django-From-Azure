@@ -21,11 +21,11 @@ So once you learn how to build, you will be familiar with deploying and managing
 
 ## Ingredients for this work-flow:
 
-- Python 2.7 (Configure so you can run the REPL
-- A text editor (Sublime is good)
-- An Azure Subscription (Bizspark or free trial)
-- Git and a Git shell
-- Terminal or powershell
+- [Python 2.7](https://www.python.org/download/releases/2.7/) (Configure so you can run the REPL
+- [A text editor](http://www.howtogeek.com/112385/the-best-free-text-editors-for-windows-and-linux/ "How To Geek has good guide") ([Sublime](http://www.sublimetext.com/ "Sublime's site") is good)
+- An Azure Subscription ([Bizspark](http://www.microsoft.com/bizspark/ "Gotta get me some of that bizspark. I can hook you up as well @timmyreilly") or [free trial](http://azure.microsoft.com/en-us/pricing/free-trial/ "Free trial site. Let me know if it's changed @timmyreilly"))
+- [Git](https://github.com/) and a Git shell
+- [Powershell](http://en.wikipedia.org/wiki/Windows_PowerShell "This wikipedia is excellent ") or Terminal 
 
 ## Your Box 
 
@@ -92,7 +92,7 @@ To demonstrate we are going to begin with making a very simple site from code we
 And show how this change comes to fruition. 
 
 1. Open a text editor
-	1. Try opening from the root file by selecting -> File -> Open Folder
+	- Try opening from the root file by selecting -> File -> Open Folder
 2. Take a look at all those files! (You'll learn more about these if you follow the tutorials in the learning section. 
 3.  In the DjangoApplication Directory create a new folder named 'templates'
 4.  In that folder add a new file named home.html
@@ -126,9 +126,9 @@ Run these commands in this order
 - git push azure master
 	- Info about pushing will be returned.
 
-Now those changes exist in the cloud! 
+Now those changes exist in the cloud. 
 
-Refresh your website! You can see the change! 
+Refresh your website! You can see the changes.  
 
 Your tools are setup, your files are in line and you're ready to learn without configuration headaches. 
 
@@ -139,23 +139,29 @@ From here on out, every 15 minutes as you learn and work simply run those three 
 
 This is just the start. You are now ready to open your mind to the fascinating and wonderful world of web development. 
 
-These resources are a great way to get started. 
+This guide was built with these tutorials in mind, and are a natural extension of this work.  
 
-Python the hard way
+**Python the hard way**
+
+[http://learnpythonthehardway.org/](http://learnpythonthehardway.org/)
+
 This tutorial will teach you so much, and is right in line with this project. I would suggest getting as far through this as possible. Not only is it a great introduction to Python, but also an incredibly effective way to begin thinking like a computer scientist.
 
-djangobook
-Welcome to application development in the web. This will not only teach you how to build a simple app. But will give you context for web development. Its well done, articulate, and includes great descriptions and philosophies for why things are done. Not only fascinating, but a great foundation for other web development frameworks. Get some good music going and start jamming through.
+**djangobook**
+
+[http://www.djangobook.com/en/2.0/index.html](http://www.djangobook.com/en/2.0/index.html)
+
+Welcome to application development in the web. This will not only teach you how to build a simple app. But will give you context for web development. It is well done, articulate, and includes great descriptions and philosophies for why things are done. Not only fascinating, but a great foundation for other web development frameworks. Get some good music going and start jamming through.
 
 Hope this tutorial helps. 
 
 Please let me know if anything is unclear. 
 You need help.
 Or feel like geeking out
-@timmyreilly
+[@timmyreilly](https://twitter.com/timmyreilly)
 or
-timmyreilly.com
+[timmyreilly.com](http://timmyreilly.com/)
 
-http://www.djangobook.com/en/2.0/index.html
+
  
 
