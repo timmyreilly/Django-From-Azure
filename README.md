@@ -1,4 +1,4 @@
-Django
+Get Started with Django from Azure
 =====
 
 This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture. 
@@ -155,9 +155,9 @@ Welcome to application development in the web. This will not only teach you how 
 
 Hope this tutorial helps. 
 
-Please let me know if anything is unclear. 
-You need help.
-Or feel like geeking out
+Please let me know if anything is unclear, 
+you need help, or feel like geeking out.
+
 [@timmyreilly](https://twitter.com/timmyreilly)
 or
 [timmyreilly.com](http://timmyreilly.com/)
