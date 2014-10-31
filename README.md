@@ -51,18 +51,64 @@ Ingredients for this workflow:
 
 Azure is now creating a complete Django website hosted in the cloud. 
 
+(You can visit the site by navigating to this URL: http://YOUR-WEBSITE-NAME.azurewebsites.net)
+
 Were going to begin treating this Django existence as a repository. Or a place to hold and manage our code.
 
 1. Click on that instance
 2. Find 'Integrate source control' on the Quick Start page
 3. Select 'Set up deployment from source control'
-4. 
+4. Select 'Local Git repository'
+
+The page will refresh with instructions. 
+We'll be copying text from this page, so keep it handy. 
+ 
 
 **Local Repository**
 
+We'll now set up our local repository. Where changes will be recorded and managed then pushed towards our remote repository hosted on Azure. 
 
+With GitShell change to your github folder. 
+
+We'll be creating the repository here. 
+
+1. Copy the line that begins: git clone https:// 
+2. Paste this into your git shell and press enter
+
+We're now cloning the repo into a new directory. 
+Open file explorer and take a look at the new file. Retry 'git clone' it if hangs or takes too long. You're moving 6000ish files.  
 
 **Making a change**
+
+Now we can develop! We can practice and learn with this file-set.
+
+To demonstrate we are going to begin with making a very simple site from code we copy and paste. 
+
+And show how this change comes to fruition. 
+
+1. Open a text editor
+	1. Try opening from the root file by selecting -> File -> Open Folder
+2. Take a look at all those files! (You'll learn more about these if you follow the tutorials in the learning section. 
+3.  In the DjangoApplication Directory create a new folder named 'templates'
+4.  In that folder add a new file named home.html
+
+Now we'll be inserting the code that lies within the repo that this README.md exists in. You can either fork the changes, type it in, or copy the changes from the raw files on GitHub. 
+
+There are 5 total files to edit. And these five are the only you'll need to edit to make an entire site! You'll learn more advaced topics if you continue, but everything else is just extra layers to these 5 building and configuration blocks. 
+
+1. Copy and paste the code from home.html into your newly created home.html file 
+	1. This is a template: It provides the html to generate on your browser. 
+2. Copy the paste the code from settings.py into your settings.py
+	1. This is the configuration file that helps django know what settings you'd like on your files. 
+3. Copy and paste the code from urls.py into your urls.py
+	1. This is the routing file. It acts as the telephone operator for requests
+4. Copy and paste the code from views.py into your views.py. 
+	1. This is the logic of the matter. Its the fun part. 
+
+Alright you're sites all ready save all your changes! We're about to deploy. 
+
+
+
 
 **Deployment**
 
