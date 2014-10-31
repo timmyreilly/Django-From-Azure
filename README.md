@@ -9,7 +9,7 @@ As with most things technology, there will be a focus on the cloud. This means t
 
 So once you learn how to build, you will be familiar with deploying and managing.  
 
-There are 6 pieces to this lesson.  
+## There are 6 pieces to this lesson.  
 
 1. Your Box
 2. The Cloud
@@ -18,12 +18,8 @@ There are 6 pieces to this lesson.
 5. Deployment
 6. Learning
 
-1. Configuring your box
-2. Spinning up your site
-3. Pulling from the cloud
-4. Configuring
 
-Ingredients for this workflow:
+## Ingredients for this work-flow:
 
 - Python 2.7 (Configure so you can run the REPL
 - A text editor (Sublime is good)
@@ -31,14 +27,14 @@ Ingredients for this workflow:
 - Git and a Git shell
 - Terminal or powershell
 
-**Your Box**
+## Your Box 
 
 -  You should be able to do these things before we continue
 	1. Open files with Sublime
 	2. Change to your GitHub directory with powershell
 	3. Run Python's REPL in powershell
 
-**The Cloud**
+## The Cloud
 
 1. Go to the Azure Portal
 2. Select new in the lower left corner
@@ -64,7 +60,7 @@ The page will refresh with instructions.
 We'll be copying text from this page, so keep it handy. 
  
 
-**Local Repository**
+##Local Repository
 
 We'll now set up our local repository. Where changes will be recorded and managed then pushed towards our remote repository hosted on Azure. 
 
@@ -76,9 +72,18 @@ We'll be creating the repository here.
 2. Paste this into your git shell and press enter
 
 We're now cloning the repo into a new directory. 
-Open file explorer and take a look at the new file. Retry 'git clone' it if hangs or takes too long. You're moving 6000ish files.  
+Open file explorer and take a look at the new file. Retry 'git clone' it if hangs or takes too long. You're moving 6000ish files. 
 
-**Making a change**
+Now we'll connect our repo to Azure's
+
+1. CD into newly created directory
+2. Copy the line that begins: git push azure master ...
+3. Run this command
+
+Now two repos are setup and connected! 
+Source control is in your hands! 
+
+## Making a change
 
 Now we can develop! We can practice and learn with this file-set.
 
@@ -97,81 +102,60 @@ Now we'll be inserting the code that lies within the repo that this README.md ex
 There are 5 total files to edit. And these five are the only you'll need to edit to make an entire site! You'll learn more advaced topics if you continue, but everything else is just extra layers to these 5 building and configuration blocks. 
 
 1. Copy and paste the code from home.html into your newly created home.html file 
-	1. This is a template: It provides the html to generate on your browser. 
+	- This is a template: It provides the html to generate on your browser. 
 2. Copy the paste the code from settings.py into your settings.py
-	1. This is the configuration file that helps django know what settings you'd like on your files. 
+	- This is the configuration file that helps django know what settings you'd like on your files. 
 3. Copy and paste the code from urls.py into your urls.py
-	1. This is the routing file. It acts as the telephone operator for requests
+	- This is the routing file. It acts as the telephone operator for requests
 4. Copy and paste the code from views.py into your views.py. 
-	1. This is the logic of the matter. Its the fun part. 
+	- This is the logic of the matter. Its the fun part. 
 
 Alright you're sites all ready. Save your changes! We're about to deploy. 
 
 
-**Deployment**
+## Deployment
 
 This is a common git flow. For personal git controlled code this is a very simple way to get your head wrapped around the process. Start here and you'll work your way into the git mastery. 
 
 Run these commands in this order
 
-git add .
-git commit -a -m "Description of Commit"
-git push azure master
+- git add . 	
+	- Will return nothing	
+- git commit -a -m "Description of Commit"
+	- Will info about changes made returned
+- git push azure master
+	- Info about pushing will be returned.
+
+Now those changes exist in the cloud! 
+
+Refresh your website! You can see the change! 
+
+Your tools are setup, your files are in line and you're ready to learn without configuration headaches. 
+
+From here on out, every 15 minutes as you learn and work simply run those three commands in the GitShell to see what your website looks like and keep you code safe and in a cozy cloud. 
 
 
+##Learning
 
-**Learning **
+This is just the start. You are now ready to open your mind to the fascinating and wonderful world of web development. 
+
+These resources are a great way to get started. 
+
+Python the hard way
+This tutorial will teach you so much, and is right in line with this project. I would suggest getting as far through this as possible. Not only is it a great introduction to Python, but also an incredibly effective way to begin thinking like a computer scientist.
+
+djangobook
+Welcome to application development in the web. This will not only teach you how to build a simple app. But will give you context for web development. Its well done, articulate, and includes great descriptions and philosophies for why things are done. Not only fascinating, but a great foundation for other web development frameworks. Get some good music going and start jamming through.
+
+Hope this tutorial helps. 
+
+Please let me know if anything is unclear. 
+You need help.
+Or feel like geeking out
+@timmyreilly
+or
+timmyreilly.com
+
+http://www.djangobook.com/en/2.0/index.html
  
 
-A quick change
-
-First thing: 
-Download Git
-	(We'll be using the shell)
-Download Python
-	Configure Python C:\Python27\python.exe
-Download Sublime
-
-Activate your Azure trial or subscription: Check out BizSpark for $150 a month for young companies!
-Go to the portal
-Websites
-New Website
-From Gallery
-Django Site
-Name it something and put in your region!
-
-Wait for it deploy!
-Once deployed...
-Set up deployment from Source Control
-Select a repository or file management system that you like. 
-I'll be using LocalRepository to keep it simple. 
-
-Open up your git shell 
-CD to your favorite development folder. 
-Clone that sucker. 
-
-New Directory created. 
-Cool, We'll now initialize the azure site as our remote repository
-
-Let's make a quick change: 
-Add a new view
-Add file: views.py
-
-	
-Add a new template
-
-Add a new route
-
-Change your settings
-Add import os.path
-Add Static path
-Configure TEMPLATE_DIRS
-
-
-Add the new files
-Commit the changes
-And push back to Azure!
-
-Alright! Now you're ready to create with Django and Azure in a real website. 
-These tutorials will get you started creating!
-When you're ready for a daddybase on Azure 
