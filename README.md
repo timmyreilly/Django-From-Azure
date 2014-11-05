@@ -22,7 +22,7 @@ So once you learn how to build, you will be familiar with deploying and managing
 ## Ingredients for this work-flow:
 
 - [Python 2.7](https://www.python.org/download/releases/2.7/) (Configure so you can run the REPL
-- [A text editor](http://www.howtogeek.com/112385/the-best-free-text-editors-for-windows-and-linux/ "How To Geek has good guide") ([Sublime](http://www.sublimetext.com/ "Sublime's site") is good)
+- [A text editor](http://www.howtogeek.com/112385/the-best-free-text-editors-for-windows-and-linux/ "How To Geek has good guide") ([Sublime](http://www.sublimetext.com/ "Sublime's site"), [Atom](https://atom.io/), or [Notepad++](http://notepad-plus-plus.org/) are all excellent)
 - An Azure Subscription ([Bizspark](http://www.microsoft.com/bizspark/ "Gotta get me some of that bizspark. I can hook you up as well @timmyreilly") or [free trial](http://azure.microsoft.com/en-us/pricing/free-trial/ "Free trial site. Let me know if it's changed @timmyreilly"))
 - [Git](https://github.com/) and a Git shell
 - [Powershell](http://en.wikipedia.org/wiki/Windows_PowerShell "This wikipedia is excellent ") or Terminal 
